@@ -23,7 +23,9 @@ namespace graal {
  * @return verdadeiro caso todos os elementos entre os dois ranges sejam iguais. casos contrário, retorna falso.
  *
  */
-
+/*
+ok!
+*/
 template<class InputIt1, class InputIt2, class Equal>
 bool equal(InputIt1 first1, InputIt1 last1, InputIt2 first2, Equal eq)
 {
@@ -32,7 +34,8 @@ bool equal(InputIt1 first1, InputIt1 last1, InputIt2 first2, Equal eq)
         if(!eq(*first1, *first2))
             return false;
     }
-    return true; // talvez verificar caso de vetores de tamanhos diferentes, possivel erro.
+    return true; // talvez verificar caso de vetores de tamanhos diferentes, possivel erro. 
+    //não faz diferença o range a ser testado é first1-last1, a questão não te dá meios de verificar o tamanho o segundo range com inicio em first2, logo vc só confia...
 }
 
 

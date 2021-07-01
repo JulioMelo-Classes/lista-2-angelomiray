@@ -22,7 +22,9 @@ namespace graal {
  * @return Um iterator apontando para o primeiro elemento do range que satisfaz p.
  *
  */
-
+/*
+ok!
+*/
 template<class InputIt, class UnaryPredicate>
 InputIt find_if(InputIt first, InputIt last, UnaryPredicate p)
 {

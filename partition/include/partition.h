@@ -22,7 +22,9 @@ namespace graal {
  * @return Um ponteiro(ou iterator) apontando para o endereço logo após o último elemento que satisfaz o predicado.
  *
  */
-
+/*
+ok
+*/
 template<class ForwardIt, class UnaryPredicate>
 ForwardIt partition(ForwardIt first, ForwardIt last, UnaryPredicate p)
 {

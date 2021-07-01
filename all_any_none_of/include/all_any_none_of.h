@@ -23,7 +23,9 @@ namespace graal {
  * @return verdadeiro quando o predicado p é verdadeiro para todos os elementos do range. caso contrário, retorna falso.
  *
  */
-
+/*
+blz!
+*/
 template<class InputIt, class UnaryPredicate>
 bool all_of(InputIt first, InputIt last, UnaryPredicate p)
 {

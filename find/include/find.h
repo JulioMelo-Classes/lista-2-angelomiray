@@ -21,6 +21,9 @@ namespace graal {
  * @return Um iterator(ou ponteiro) para o primeiro elemento que satisfaz a função eq().
  *
  */
+ /*
+ blz
+ */
 template<class InputIt, class T, class Equal>
 InputIt find(InputIt first, InputIt last, const T& value, Equal eq)
 {

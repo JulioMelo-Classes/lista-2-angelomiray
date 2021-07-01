@@ -21,6 +21,9 @@ namespace graal {
  * @return iterator apontando para a posição logo após o último elemento do range cópia.
  *
  */
+ /*
+ ok!
+ */
 template<class InputIt>
 InputIt copy(InputIt first, InputIt last, InputIt d_first)
 {

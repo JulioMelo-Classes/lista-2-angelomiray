@@ -19,10 +19,12 @@ namespace graal {
  * @param last Ponteiro para a posição logo após o último elemento do range
  * @param cmp função que retorna verdadeiro caso, dados dos parâmetros, o primeiro entre eles seja maior que o segundo. caso contrário, retorna falso.
  *
- * @return nenhum retorno.
+ * @return nenhum retorno. //nesse caso vc não coloca o @return =)
  *
  */
-
+/*
+blz!
+*/
 template<class ForwardIt, class Comparison>
 void sort(ForwardIt first, ForwardIt last, Comparison cmp)
 {   
